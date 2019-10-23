@@ -1,7 +1,0 @@
-eureka:
-    client:
-        service-url:
-            defaultZone: http://localhost:8761/eureka/
-
-company:
-    name: dongfangjinxin22222222222
