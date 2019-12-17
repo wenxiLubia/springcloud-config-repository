@@ -4,4 +4,4 @@ eureka:
             defaultZone: http://localhost:8761/eureka/
             
 swagger:
-    enable: true
+    enable: false
