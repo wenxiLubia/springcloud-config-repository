@@ -11,7 +11,7 @@ rocketmq:
         retry-times-when-send-async-failed: 10
         vip-channel-enabled: false
         # default 配置默认生产者
-        default: true
+        default: false
         # transaction 配置事务生产者
         transaction: true
     # 消费者配置
