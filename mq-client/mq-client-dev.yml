@@ -1,0 +1,20 @@
+eureka:
+    client:
+        service-url:
+            defaultZone: http://localhost:8761/eureka/
+
+rocketmq:
+    # 生产者配置
+    producer:
+        groupName: ${spring.application.name}
+        namesrvAddr: 10.161.81.148:9876
+        retry-times-when-send-async-failed: 10
+        vip-channel-enabled: false
+        # default 配置默认生产者
+        default: false
+        # transaction 配置事务生产者
+        transaction: true
+    # 消费者配置
+    consumer:
+        groupName: ${spring.application.name}
+        namesrvAddr: 10.161.81.148:9876
