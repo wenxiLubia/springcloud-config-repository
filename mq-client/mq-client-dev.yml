@@ -3,6 +3,9 @@ eureka:
         service-url:
             defaultZone: http://localhost:8761/eureka/
 
+swagger:
+    enable: true
+
 rocketmq:
     # 生产者配置
     producer:
